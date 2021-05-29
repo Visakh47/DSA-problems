@@ -2,6 +2,7 @@ class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
         finalw1 = ''
         finalw2 = ''
+        #try indexing the array -> faster
         for s in word1:
             finalw1 = finalw1 +s
         for q in word2:
