@@ -9,5 +9,4 @@ class Solution:
         for i in range(len(items)):
             if(ruleValue==items[i][n]):
                 c= c+1
-        
         return c
