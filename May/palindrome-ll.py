@@ -7,8 +7,8 @@ class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         
         str1 = []
-        while(head!=None):
+        while head:
             str1.append(head.val)
             head = head.next
         
-        return(str1==str1[::-1])
+        return(str1[::-1]==str1)
