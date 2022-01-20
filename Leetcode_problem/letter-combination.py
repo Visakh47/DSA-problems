@@ -17,7 +17,7 @@ class Solution:
         # ex digits = [2,3]
         
         def recur(i, curr):
-            if len(curr) == len(digits):
+            if len(curr) == len(digits): # base case of recursion. 
                 ra.append(curr)
                 return
             else: #forming the currrent string 
