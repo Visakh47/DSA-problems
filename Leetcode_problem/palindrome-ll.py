@@ -27,7 +27,7 @@ class Solution:
         cur,prev,slow,fast = head,None,head,head
         while(fast and fast.next):
             #each time you break the link and give it back to prev
-            cur = slow # putting cur in next node 
+            cur = slow # putting cur in next node, you want current to be right before slow
             slow = slow.next #slow is used for finding the midpoint and also next node
             fast = fast.next.next
             cur.next = prev # breaking link and giving it to prev
