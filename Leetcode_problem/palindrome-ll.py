@@ -48,7 +48,7 @@ class Solution:
         
             
             
-        
+        #try drawing it out with 1 2 2 2 1
         
         
         
