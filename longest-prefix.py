@@ -8,7 +8,7 @@ class Solution:
             temp = []
             for s in strs:
                 temp.append(s[i]) # {f,f,f}
-            if (len(set(temp) == 1): 
+            if len(set(temp)) == 1: 
                 #we basically check if at all position of i, everyone has the same letter
                 prefix = prefix + "".join(set(temp))
             else:
